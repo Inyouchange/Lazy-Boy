@@ -12,6 +12,7 @@ class TodayViewController: UIViewController {
 
     @IBOutlet weak var situationView: UIView!
     @IBOutlet weak var todayView: UIView!
+    
     @IBOutlet weak var itemView: UIView!
     
     
