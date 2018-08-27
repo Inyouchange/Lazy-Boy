@@ -11,6 +11,7 @@
 		401FCFA82132B85100F1A728 /* hotArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FCFA72132B85100F1A728 /* hotArticleTableViewController.swift */; };
 		401FCFAA2132B91700F1A728 /* hotArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FCFA92132B91700F1A728 /* hotArticleTableViewCell.swift */; };
 		401FCFAF2132C4A600F1A728 /* SecondMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401FCFAE2132C4A600F1A728 /* SecondMain.storyboard */; };
+		407F637E2133B25900001915 /* infoSegmenatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407F637D2133B25900001915 /* infoSegmenatedViewController.swift */; };
 		409EE0E9212D110200114168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EE0E8212D110200114168 /* AppDelegate.swift */; };
 		409EE0EB212D110200114168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EE0EA212D110200114168 /* ViewController.swift */; };
 		409EE0EE212D110200114168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409EE0EC212D110200114168 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		401FCFA72132B85100F1A728 /* hotArticleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotArticleTableViewController.swift; sourceTree = "<group>"; };
 		401FCFA92132B91700F1A728 /* hotArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotArticleTableViewCell.swift; sourceTree = "<group>"; };
 		401FCFAE2132C4A600F1A728 /* SecondMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondMain.storyboard; sourceTree = "<group>"; };
+		407F637D2133B25900001915 /* infoSegmenatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoSegmenatedViewController.swift; sourceTree = "<group>"; };
 		409EE0E5212D110200114168 /* GitLab_CL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitLab_CL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		409EE0E8212D110200114168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		409EE0EA212D110200114168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		409EE0DC212D110200114168 = {
 			isa = PBXGroup;
 			children = (
+				407F637D2133B25900001915 /* infoSegmenatedViewController.swift */,
 				401FCFAE2132C4A600F1A728 /* SecondMain.storyboard */,
 				409EE0E7212D110200114168 /* GitLab_CL */,
 				409EE0FC212D110400114168 /* GitLab_CLTests */,
@@ -440,6 +443,7 @@
 				401FCFAA2132B91700F1A728 /* hotArticleTableViewCell.swift in Sources */,
 				C589851F21310BE900DA3F4E /* CreateAccountViewController.swift in Sources */,
 				C589851D2131073F00DA3F4E /* LoginViewController.swift in Sources */,
+				407F637E2133B25900001915 /* infoSegmenatedViewController.swift in Sources */,
 				C564587D21328AEA009D88C7 /* TodayViewController.swift in Sources */,
 				401FCFA82132B85100F1A728 /* hotArticleTableViewController.swift in Sources */,
 				C56458812132AAAF009D88C7 /* RealTodayViewController.swift in Sources */,
