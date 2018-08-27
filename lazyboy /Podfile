@@ -27,5 +27,7 @@ target 'GitLab_CL' do
 
    pod 'GoogleSignIn'
 
+   pod 'Alamofire', '~> 4.7' 
+
 
 end
