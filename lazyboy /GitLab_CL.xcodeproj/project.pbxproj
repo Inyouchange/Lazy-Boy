@@ -27,6 +27,7 @@
 		C589851D2131073F00DA3F4E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589851C2131073F00DA3F4E /* LoginViewController.swift */; };
 		C589851F21310BE900DA3F4E /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589851E21310BE900DA3F4E /* CreateAccountViewController.swift */; };
 		C5EF25292130FF6700EE5368 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5EF25282130FF6700EE5368 /* GoogleService-Info.plist */; };
+		C5F8CA482133B03B00F0F20E /* BigTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F8CA472133B03B00F0F20E /* BigTodayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		C589851C2131073F00DA3F4E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C589851E21310BE900DA3F4E /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		C5EF25282130FF6700EE5368 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5F8CA472133B03B00F0F20E /* BigTodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTodayViewController.swift; sourceTree = "<group>"; };
 		DBCCB905A2E6A8582B5A700A /* Pods-GitLab_CLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitLab_CLTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitLab_CLTests/Pods-GitLab_CLTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E418CBE9ECC1F2B5D07417E0 /* Pods-GitLab_CL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitLab_CL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitLab_CL/Pods-GitLab_CL.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +141,7 @@
 				409EE0E8212D110200114168 /* AppDelegate.swift */,
 				409EE0EA212D110200114168 /* ViewController.swift */,
 				409EE0EC212D110200114168 /* Main.storyboard */,
+				C5F8CA472133B03B00F0F20E /* BigTodayViewController.swift */,
 				C56458802132AAAF009D88C7 /* RealTodayViewController.swift */,
 				C564587C21328AEA009D88C7 /* TodayViewController.swift */,
 				C54F24B1213160020009F68E /* ResetPasswordViewController.swift */,
@@ -450,6 +453,7 @@
 				C54F24B2213160020009F68E /* ResetPasswordViewController.swift in Sources */,
 				409EE0EB212D110200114168 /* ViewController.swift in Sources */,
 				409EE0E9212D110200114168 /* AppDelegate.swift in Sources */,
+				C5F8CA482133B03B00F0F20E /* BigTodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
