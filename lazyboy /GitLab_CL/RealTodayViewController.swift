@@ -13,7 +13,7 @@ class RealTodayViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "rectangle")!)
         // Do any additional setup after loading the view.
     }
 
