@@ -13,22 +13,50 @@ import CoreLocation
 
 
 class BigTodayViewController: UIViewController, CLLocationManagerDelegate {
-
+    
+    @IBOutlet weak var tempLabel: UILabel!
+    
     @IBOutlet weak var relaxView: UIImageView!
     @IBOutlet weak var halfView: UIImageView!
-    var myUIView :UIView!
-    var fullSize = UIScreen.main.bounds.size
-   /* @IBAction func halrAction(_ sender: Any) {
+    
+    @IBOutlet weak var wholeView: UIImageView!
+    @IBOutlet weak var upLabel: UILabel!
+    @IBAction func halrAction(_ sender: Any) {
         UIView.animate(withDuration: 0.5, animations: {
             self.halfView.isHidden = false
+            self.halfView.transform = CGAffineTransform(translationX: 0, y: -40);
             self.relaxView.alpha = 0.5
+            self.upLabel.isHidden = true
             
         })
-    }*/
+    }
     let locationManager = CLLocationManager()
+    
+    @IBAction func wholeAction(_ sender: Any) {
+        UIView.animate(withDuration: 0.5, animations: {
+            self.wholeView.isHidden = false
+            self.wholeView.transform = CGAffineTransform(translationX: 0, y: -430);
+            self.relaxView.alpha = 0.5
+            self.upLabel.isHidden = true
+            self.halfView.isHidden = true
+            
+        })
+    }
+    
+    @IBAction func downAction(_ sender: Any) {
+        UIView.animate(withDuration: 0.5, animations: {
+            self.wholeView.isHidden = false
+            self.wholeView.transform = CGAffineTransform(translationX: 0, y: 430);
+            self.relaxView.alpha = 1.0
+            self.upLabel.isHidden = false
+            self.halfView.isHidden = true
+            
+        })
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        accessOpenAPI()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "rectangle")!)
         //TODO:Set up the location manager here.
         locationManager.delegate = self  //宣告自己 (current VC)為 locationManager 的代理
@@ -36,57 +64,13 @@ class BigTodayViewController: UIViewController, CLLocationManagerDelegate {
         //to ask the user for location
         locationManager.requestWhenInUseAuthorization()  //for not destroying the user's battery
         locationManager.startUpdatingLocation() //this method will start navigating the location. And once this is done, it will send a msg to this ViewController
-        //self.halfView.isHidden = true
+        self.halfView.isHidden = true
+        self.wholeView.isHidden = true
         
-        // 一個可供移動的 UIView
-        myUIView = UIView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
-        myUIView.backgroundColor = UIColor(patternImage: UIImage(named: "1535425437800")!)
-        self.view.addSubview(myUIView)
         
-        // 向上滑動
-        let swipeUp = UISwipeGestureRecognizer(target:self, action:#selector(BigTodayViewController.swipe(_:)))
-        swipeUp.direction = .up
-        
-        // 幾根指頭觸發 預設為 1
-        swipeUp.numberOfTouchesRequired = 1
-        
-        // 為視圖加入監聽手勢
-        self.view.addGestureRecognizer(swipeUp)
         
     }
-    @objc func swipe(_ recognizer:UISwipeGestureRecognizer) {
-        let point = myUIView.center
-        
-        if recognizer.direction == .up {
-            print("Go Up")
-            if point.y >= 150 {
-                myUIView.center = CGPoint(x: myUIView.center.x, y: myUIView.center.y - 100)
-            } else {
-                myUIView.center = CGPoint(x: myUIView.center.x, y: 50)
-            }
-        } else if recognizer.direction == .left {
-            print("Go Left")
-            if point.x >= 150 {
-                myUIView.center = CGPoint(x: myUIView.center.x - 100, y: myUIView.center.y)
-            } else {
-                myUIView.center = CGPoint(x: 50, y: myUIView.center.y)
-            }
-        } else if recognizer.direction == .down {
-            print("Go Down")
-            if point.y <= fullSize.height - 150 {
-                myUIView.center = CGPoint(x: myUIView.center.x, y: myUIView.center.y + 100)
-            } else {
-                myUIView.center = CGPoint(x: myUIView.center.x, y: fullSize.height - 50)
-            }
-        } else if recognizer.direction == .right {
-            print("Go Right")
-            if point.x <= fullSize.width - 150 {
-                myUIView.center = CGPoint(x: myUIView.center.x + 100, y: myUIView.center.y)
-            } else {
-                myUIView.center = CGPoint(x: fullSize.width - 50, y: myUIView.center.y)
-            }
-        }
-    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -104,7 +88,25 @@ class BigTodayViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     
-
+    func accessOpenAPI() {
+        let jsonURL = "http://api.openweathermap.org/data/2.5/weather?lat=25&lon=121&appid=e5bd78119aaf61c8c4ca448557afd91b"
+        Alamofire.request(jsonURL).responseJSON{ (reponse)in do{
+            //print("=====\(reponse.value)")
+            let decoder = JSONDecoder()
+            let openData = try decoder.decode(WeatherInfo.self, from: reponse.data!)
+            DispatchQueue.main.async {
+                var transTemp:Double = openData.main.temp - 272.15
+                self.tempLabel.text = ("\(transTemp)°")
+                self.tempLabel.textColor = UIColor.orange
+           }
+            
+            
+        }
+        catch{
+            print("\(error)")
+            }
+        }
+    }
     
     /*
     // MARK: - Navigation

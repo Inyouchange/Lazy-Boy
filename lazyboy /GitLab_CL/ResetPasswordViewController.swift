@@ -15,6 +15,7 @@ class ResetPasswordViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     
     @IBAction func resetAction(_ sender: Any) {
+        
         //判斷TextField有無空值
         if self.emailTextField.text == "" {
             //彈出警告

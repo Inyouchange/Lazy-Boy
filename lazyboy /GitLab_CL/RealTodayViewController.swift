@@ -10,7 +10,8 @@ import UIKit
 
 class RealTodayViewController: UIViewController {
 
-
+    @IBAction func dismissNext(segue:UIStoryboardSegue){
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "rectangle")!)

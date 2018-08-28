@@ -28,6 +28,7 @@
 		409EE109212D110400114168 /* GitLab_CLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EE108212D110400114168 /* GitLab_CLUITests.swift */; };
 		7CAD041ED5307042A8BB63FC /* Pods_GitLab_CLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C21C696680BFD70C31FC1B7 /* Pods_GitLab_CLTests.framework */; };
 		B87A33EFBC1D0EE4811652A9 /* Pods_GitLab_CLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFEE81B86DC728BC473B07A /* Pods_GitLab_CLUITests.framework */; };
+		C549972D21353FF600DAC409 /* WeatherObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549972C21353FF600DAC409 /* WeatherObject.swift */; };
 		C54F24B2213160020009F68E /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F24B1213160020009F68E /* ResetPasswordViewController.swift */; };
 		C564587D21328AEA009D88C7 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C564587C21328AEA009D88C7 /* TodayViewController.swift */; };
 		C56458812132AAAF009D88C7 /* RealTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56458802132AAAF009D88C7 /* RealTodayViewController.swift */; };
@@ -86,6 +87,7 @@
 		59A5B0B60889E98A4FB7A1B2 /* Pods-GitLab_CLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitLab_CLUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitLab_CLUITests/Pods-GitLab_CLUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5BFEE81B86DC728BC473B07A /* Pods_GitLab_CLUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitLab_CLUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C21C696680BFD70C31FC1B7 /* Pods_GitLab_CLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitLab_CLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C549972C21353FF600DAC409 /* WeatherObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherObject.swift; sourceTree = "<group>"; };
 		C54F24B1213160020009F68E /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		C564587C21328AEA009D88C7 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		C56458802132AAAF009D88C7 /* RealTodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTodayViewController.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				C5EF25282130FF6700EE5368 /* GoogleService-Info.plist */,
 				401FCFA72132B85100F1A728 /* hotArticleTableViewController.swift */,
 				401FCFA92132B91700F1A728 /* hotArticleTableViewCell.swift */,
+				C549972C21353FF600DAC409 /* WeatherObject.swift */,
 			);
 			path = GitLab_CL;
 			sourceTree = "<group>";
@@ -484,6 +487,7 @@
 				C5F8CA482133B03B00F0F20E /* BigTodayViewController.swift in Sources */,
 				407F63902133E3C200001915 /* teachTableViewCell.swift in Sources */,
 				407F63802133CC1500001915 /* loadingViewController.swift in Sources */,
+				C549972D21353FF600DAC409 /* WeatherObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
