@@ -9,8 +9,8 @@
 import UIKit
 
 class newInfoTableViewController: UITableViewController {
-    var infoNames = ["第一章","第二章","第三章","第四章"]
-    var infoImages = ["1111","2222","3333","4444"]
+    var infoNames = ["","",""]
+    var infoImages = ["文章banner包包","文章banner羊毛大衣","文章banner秋裝"]
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "Cell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)as! newInfoTableViewCell
