@@ -29,6 +29,16 @@
 		7CAD041ED5307042A8BB63FC /* Pods_GitLab_CLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C21C696680BFD70C31FC1B7 /* Pods_GitLab_CLTests.framework */; };
 		B87A33EFBC1D0EE4811652A9 /* Pods_GitLab_CLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFEE81B86DC728BC473B07A /* Pods_GitLab_CLUITests.framework */; };
 		C549972D21353FF600DAC409 /* WeatherObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549972C21353FF600DAC409 /* WeatherObject.swift */; };
+		C549972F2135626100DAC409 /* GentlemanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549972E2135626100DAC409 /* GentlemanViewController.swift */; };
+		C54997312135720D00DAC409 /* NewUserPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54997302135720D00DAC409 /* NewUserPageViewController.swift */; };
+		C549973321357C5400DAC409 /* NewUser1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549973221357C5400DAC409 /* NewUser1ViewController.swift */; };
+		C549973521357C8700DAC409 /* NewUser2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549973421357C8700DAC409 /* NewUser2ViewController.swift */; };
+		C549973721357C9800DAC409 /* NewUser3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549973621357C9800DAC409 /* NewUser3ViewController.swift */; };
+		C549973921357CA700DAC409 /* NewUser4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549973821357CA700DAC409 /* NewUser4ViewController.swift */; };
+		C549973D21363E9A00DAC409 /* newuser2.gif in Resources */ = {isa = PBXBuildFile; fileRef = C549973C21363E9900DAC409 /* newuser2.gif */; };
+		C549973F21363EA400DAC409 /* newuser3.gif in Resources */ = {isa = PBXBuildFile; fileRef = C549973E21363EA400DAC409 /* newuser3.gif */; };
+		C549974121363EA900DAC409 /* newuser4.gif in Resources */ = {isa = PBXBuildFile; fileRef = C549974021363EA900DAC409 /* newuser4.gif */; };
+		C54997432136555D00DAC409 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54997422136555D00DAC409 /* Alamofire.framework */; };
 		C54F24B2213160020009F68E /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F24B1213160020009F68E /* ResetPasswordViewController.swift */; };
 		C564587D21328AEA009D88C7 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C564587C21328AEA009D88C7 /* TodayViewController.swift */; };
 		C56458812132AAAF009D88C7 /* RealTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56458802132AAAF009D88C7 /* RealTodayViewController.swift */; };
@@ -36,6 +46,7 @@
 		C589851F21310BE900DA3F4E /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589851E21310BE900DA3F4E /* CreateAccountViewController.swift */; };
 		C5EF25292130FF6700EE5368 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5EF25282130FF6700EE5368 /* GoogleService-Info.plist */; };
 		C5F8CA482133B03B00F0F20E /* BigTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F8CA472133B03B00F0F20E /* BigTodayViewController.swift */; };
+		C5FFA2AD2136683700DFF5AC /* newuser1(small).gif in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA2AC2136683600DFF5AC /* newuser1(small).gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +99,16 @@
 		5BFEE81B86DC728BC473B07A /* Pods_GitLab_CLUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitLab_CLUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C21C696680BFD70C31FC1B7 /* Pods_GitLab_CLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitLab_CLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C549972C21353FF600DAC409 /* WeatherObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherObject.swift; sourceTree = "<group>"; };
+		C549972E2135626100DAC409 /* GentlemanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GentlemanViewController.swift; sourceTree = "<group>"; };
+		C54997302135720D00DAC409 /* NewUserPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserPageViewController.swift; sourceTree = "<group>"; };
+		C549973221357C5400DAC409 /* NewUser1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser1ViewController.swift; sourceTree = "<group>"; };
+		C549973421357C8700DAC409 /* NewUser2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser2ViewController.swift; sourceTree = "<group>"; };
+		C549973621357C9800DAC409 /* NewUser3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser3ViewController.swift; sourceTree = "<group>"; };
+		C549973821357CA700DAC409 /* NewUser4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser4ViewController.swift; sourceTree = "<group>"; };
+		C549973C21363E9900DAC409 /* newuser2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = newuser2.gif; sourceTree = "<group>"; };
+		C549973E21363EA400DAC409 /* newuser3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = newuser3.gif; sourceTree = "<group>"; };
+		C549974021363EA900DAC409 /* newuser4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = newuser4.gif; sourceTree = "<group>"; };
+		C54997422136555D00DAC409 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54F24B1213160020009F68E /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		C564587C21328AEA009D88C7 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		C56458802132AAAF009D88C7 /* RealTodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTodayViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +116,7 @@
 		C589851E21310BE900DA3F4E /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		C5EF25282130FF6700EE5368 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C5F8CA472133B03B00F0F20E /* BigTodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTodayViewController.swift; sourceTree = "<group>"; };
+		C5FFA2AC2136683600DFF5AC /* newuser1(small).gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "newuser1(small).gif"; sourceTree = "<group>"; };
 		DBCCB905A2E6A8582B5A700A /* Pods-GitLab_CLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitLab_CLTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitLab_CLTests/Pods-GitLab_CLTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E418CBE9ECC1F2B5D07417E0 /* Pods-GitLab_CL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitLab_CL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitLab_CL/Pods-GitLab_CL.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54997432136555D00DAC409 /* Alamofire.framework in Frameworks */,
 				1A89DC107CDDFF55179634BB /* Pods_GitLab_CL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,16 +186,26 @@
 				409EE0E8212D110200114168 /* AppDelegate.swift */,
 				409EE0EA212D110200114168 /* ViewController.swift */,
 				409EE0EC212D110200114168 /* Main.storyboard */,
+				C549973421357C8700DAC409 /* NewUser2ViewController.swift */,
+				C549973621357C9800DAC409 /* NewUser3ViewController.swift */,
+				C549973821357CA700DAC409 /* NewUser4ViewController.swift */,
+				C549973221357C5400DAC409 /* NewUser1ViewController.swift */,
+				C54997302135720D00DAC409 /* NewUserPageViewController.swift */,
 				C5F8CA472133B03B00F0F20E /* BigTodayViewController.swift */,
 				C56458802132AAAF009D88C7 /* RealTodayViewController.swift */,
 				C564587C21328AEA009D88C7 /* TodayViewController.swift */,
 				C54F24B1213160020009F68E /* ResetPasswordViewController.swift */,
 				C589851E21310BE900DA3F4E /* CreateAccountViewController.swift */,
 				C589851C2131073F00DA3F4E /* LoginViewController.swift */,
+				C549972E2135626100DAC409 /* GentlemanViewController.swift */,
 				409EE0EF212D110400114168 /* Assets.xcassets */,
 				409EE0F1212D110400114168 /* LaunchScreen.storyboard */,
 				409EE0F4212D110400114168 /* Info.plist */,
 				407F63812133D0B400001915 /* loading.gif */,
+				C5FFA2AC2136683600DFF5AC /* newuser1(small).gif */,
+				C549973C21363E9900DAC409 /* newuser2.gif */,
+				C549973E21363EA400DAC409 /* newuser3.gif */,
+				C549974021363EA900DAC409 /* newuser4.gif */,
 				C5EF25282130FF6700EE5368 /* GoogleService-Info.plist */,
 				401FCFA72132B85100F1A728 /* hotArticleTableViewController.swift */,
 				401FCFA92132B91700F1A728 /* hotArticleTableViewCell.swift */,
@@ -215,6 +248,7 @@
 		FE0E42057DF9F1F94C312ED6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C54997422136555D00DAC409 /* Alamofire.framework */,
 				089BF1AE7431EA31D10B3683 /* Pods_GitLab_CL.framework */,
 				9C21C696680BFD70C31FC1B7 /* Pods_GitLab_CLTests.framework */,
 				5BFEE81B86DC728BC473B07A /* Pods_GitLab_CLUITests.framework */,
@@ -333,10 +367,14 @@
 			files = (
 				409EE0F3212D110400114168 /* LaunchScreen.storyboard in Resources */,
 				C5EF25292130FF6700EE5368 /* GoogleService-Info.plist in Resources */,
+				C549973D21363E9A00DAC409 /* newuser2.gif in Resources */,
+				C5FFA2AD2136683700DFF5AC /* newuser1(small).gif in Resources */,
 				409EE0F0212D110400114168 /* Assets.xcassets in Resources */,
+				C549974121363EA900DAC409 /* newuser4.gif in Resources */,
 				407F63822133D0B400001915 /* loading.gif in Resources */,
 				409EE0EE212D110200114168 /* Main.storyboard in Resources */,
 				401FCFAF2132C4A600F1A728 /* SecondMain.storyboard in Resources */,
+				C549973F21363EA400DAC409 /* newuser3.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,9 +511,14 @@
 				401FCFAA2132B91700F1A728 /* hotArticleTableViewCell.swift in Sources */,
 				407F63842133D0D000001915 /* loadGif.swift in Sources */,
 				C589851F21310BE900DA3F4E /* CreateAccountViewController.swift in Sources */,
+				C549973921357CA700DAC409 /* NewUser4ViewController.swift in Sources */,
+				C549972F2135626100DAC409 /* GentlemanViewController.swift in Sources */,
 				C589851D2131073F00DA3F4E /* LoginViewController.swift in Sources */,
 				407F637E2133B25900001915 /* infoSegmenatedViewController.swift in Sources */,
 				407F638E2133E3AB00001915 /* teachTableViewController.swift in Sources */,
+				C549973321357C5400DAC409 /* NewUser1ViewController.swift in Sources */,
+				C54997312135720D00DAC409 /* NewUserPageViewController.swift in Sources */,
+				C549973521357C8700DAC409 /* NewUser2ViewController.swift in Sources */,
 				C564587D21328AEA009D88C7 /* TodayViewController.swift in Sources */,
 				401FCFA82132B85100F1A728 /* hotArticleTableViewController.swift in Sources */,
 				C56458812132AAAF009D88C7 /* RealTodayViewController.swift in Sources */,
@@ -484,6 +527,7 @@
 				409EE0EB212D110200114168 /* ViewController.swift in Sources */,
 				407F63882133DE0F00001915 /* newInfoTableViewController.swift in Sources */,
 				409EE0E9212D110200114168 /* AppDelegate.swift in Sources */,
+				C549973721357C9800DAC409 /* NewUser3ViewController.swift in Sources */,
 				C5F8CA482133B03B00F0F20E /* BigTodayViewController.swift in Sources */,
 				407F63902133E3C200001915 /* teachTableViewCell.swift in Sources */,
 				407F63802133CC1500001915 /* loadingViewController.swift in Sources */,
@@ -662,7 +706,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W2436A8SV;
 				INFOPLIST_FILE = GitLab_CL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -680,7 +726,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W2436A8SV;
 				INFOPLIST_FILE = GitLab_CL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

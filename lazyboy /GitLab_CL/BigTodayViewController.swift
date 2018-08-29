@@ -27,6 +27,7 @@ class BigTodayViewController: UIViewController, CLLocationManagerDelegate {
             self.halfView.transform = CGAffineTransform(translationX: 0, y: -40);
             self.relaxView.alpha = 0.5
             self.upLabel.isHidden = true
+            self.tempLabel.alpha = 0.1
             
         })
     }
@@ -37,6 +38,7 @@ class BigTodayViewController: UIViewController, CLLocationManagerDelegate {
             self.wholeView.isHidden = false
             self.wholeView.transform = CGAffineTransform(translationX: 0, y: -430);
             self.relaxView.alpha = 0.5
+            self.tempLabel.alpha = 0.1
             self.upLabel.isHidden = true
             self.halfView.isHidden = true
             
@@ -48,6 +50,7 @@ class BigTodayViewController: UIViewController, CLLocationManagerDelegate {
             self.wholeView.isHidden = false
             self.wholeView.transform = CGAffineTransform(translationX: 0, y: 430);
             self.relaxView.alpha = 1.0
+            self.tempLabel.alpha = 1.0
             self.upLabel.isHidden = false
             self.halfView.isHidden = true
             
@@ -95,7 +98,7 @@ class BigTodayViewController: UIViewController, CLLocationManagerDelegate {
             let decoder = JSONDecoder()
             let openData = try decoder.decode(WeatherInfo.self, from: reponse.data!)
             DispatchQueue.main.async {
-                var transTemp:Double = openData.main.temp - 272.15
+                var transTemp:Int = Int(openData.main.temp - 272.15)
                 self.tempLabel.text = ("\(transTemp)°")
                 self.tempLabel.textColor = UIColor.orange
            }
