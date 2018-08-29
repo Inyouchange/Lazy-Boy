@@ -127,7 +127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wu6-eo-Ej5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="370" y="813"/>
+            <point key="canvasLocation" x="380" y="1068"/>
         </scene>
         <!--New User Page View Controller-->
         <scene sceneID="0Vh-qd-QEn">
@@ -374,36 +374,82 @@
         <!--Item-->
         <scene sceneID="ggf-ra-ffP">
             <objects>
-                <viewController storyboardIdentifier="Home" useStoryboardIdentifierAsRestorationIdentifier="YES" id="z7i-fH-FEQ" customClass="ViewController" customModule="GitLab_CL" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" useStoryboardIdentifierAsRestorationIdentifier="YES" id="z7i-fH-FEQ" customClass="homeViewController" customModule="GitLab_CL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TPz-pG-ruT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="410" height="814"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="re0-Yi-WVB">
-                                <rect key="frame" x="188" y="193" width="46" height="21"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fOn-9P-jJv">
+                                <rect key="frame" x="0.0" y="0.0" width="410" height="814"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zqQ-2T-gPm">
-                                <rect key="frame" x="145" y="486" width="137" height="91"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="eXY-fd-Em5" kind="show" id="QK8-9n-lVK"/>
-                                </connections>
-                            </button>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="JTs-Xy-xz2">
+                                    <rect key="frame" x="0.0" y="0.0" width="410" height="814"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zqQ-2T-gPm">
+                                            <rect key="frame" x="238" y="715" width="137" height="91"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                            <state key="normal" title="Button"/>
+                                            <connections>
+                                                <segue destination="eXY-fd-Em5" kind="show" id="QK8-9n-lVK"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="今日穿搭推薦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zpm-oj-WgF">
+                                            <rect key="frame" x="43" y="496" width="134" height="27"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="最新消息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="go8-eN-n7b">
+                                            <rect key="frame" x="43" y="274" width="90" height="27"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BM4-kY-2pA">
+                                            <rect key="frame" x="43" y="549" width="332" height="179"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Button" image="今日home"/>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyB-HJ-71g">
+                                            <rect key="frame" x="43" y="309" width="322" height="179"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Button" image="最新消息home"/>
+                                        </button>
+                                        <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="dgs-av-rse">
+                                            <rect key="frame" x="167" y="220" width="39" height="37"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="pageIndicatorTintColor" red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="currentPageIndicatorTintColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="mypage:" destination="z7i-fH-FEQ" eventType="valueChanged" id="Gn0-3K-IRg"/>
+                                            </connections>
+                                        </pageControl>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="banner3" translatesAutoresizingMaskIntoConstraints="NO" id="TbA-aU-iac">
+                                            <rect key="frame" x="38" y="31" width="327" height="196"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cP6-I5-HQP"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="KQY-wg-85u"/>
+                    <size key="freeformSize" width="410" height="814"/>
+                    <connections>
+                        <outlet property="firstimage" destination="TbA-aU-iac" id="krZ-Jh-3V2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z5n-99-qxx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2528.8000000000002" y="122.78860569715144"/>
+            <point key="canvasLocation" x="2528" y="122.33883058470765"/>
         </scene>
         <!--Reset Password View Controller-->
         <scene sceneID="GH6-u8-JIl">
@@ -847,6 +893,7 @@
         <image name="2.0 outfit_today_職場" width="234" height="300"/>
         <image name="2.0 outfit_today_街頭" width="234" height="300"/>
         <image name="Group" width="1125" height="828"/>
+        <image name="banner3" width="3376" height="2512"/>
         <image name="lazyBoy" width="134" height="25"/>
         <image name="lazyBoy-1" width="134" height="25"/>
         <image name="or" width="447" height="33"/>
@@ -855,7 +902,9 @@
         <image name="teaching_3" width="753" height="279"/>
         <image name="teaching_4" width="687" height="255"/>
         <image name="today_more" width="375" height="602"/>
+        <image name="今日home" width="1383" height="750"/>
         <image name="休閒4" width="1038" height="1433"/>
+        <image name="最新消息home" width="1383" height="750"/>
         <image name="紳士" width="1038" height="1433"/>
     </resources>
     <inferredMetricsTieBreakers>

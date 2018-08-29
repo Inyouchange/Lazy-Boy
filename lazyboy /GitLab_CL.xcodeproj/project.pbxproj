@@ -26,6 +26,10 @@
 		409EE0F3212D110400114168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409EE0F1212D110400114168 /* LaunchScreen.storyboard */; };
 		409EE0FE212D110400114168 /* GitLab_CLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EE0FD212D110400114168 /* GitLab_CLTests.swift */; };
 		409EE109212D110400114168 /* GitLab_CLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409EE108212D110400114168 /* GitLab_CLUITests.swift */; };
+		40C0741421367E97006FA0AC /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C0741321367E97006FA0AC /* homeViewController.swift */; };
+		40C07416213682E5006FA0AC /* newuser2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 40C07415213682E5006FA0AC /* newuser2.gif */; };
+		40C0741821368324006FA0AC /* newuser3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 40C0741721368324006FA0AC /* newuser3.gif */; };
+		40C0741A2136833E006FA0AC /* newuser4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 40C074192136833E006FA0AC /* newuser4.gif */; };
 		40F4EFE521364D940099E97A /* useWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F4EFE421364D940099E97A /* useWebViewController.swift */; };
 		7CAD041ED5307042A8BB63FC /* Pods_GitLab_CLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C21C696680BFD70C31FC1B7 /* Pods_GitLab_CLTests.framework */; };
 		B87A33EFBC1D0EE4811652A9 /* Pods_GitLab_CLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFEE81B86DC728BC473B07A /* Pods_GitLab_CLUITests.framework */; };
@@ -36,9 +40,6 @@
 		C549973521357C8700DAC409 /* NewUser2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549973421357C8700DAC409 /* NewUser2ViewController.swift */; };
 		C549973721357C9800DAC409 /* NewUser3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549973621357C9800DAC409 /* NewUser3ViewController.swift */; };
 		C549973921357CA700DAC409 /* NewUser4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549973821357CA700DAC409 /* NewUser4ViewController.swift */; };
-		C549973D21363E9A00DAC409 /* newuser2.gif in Resources */ = {isa = PBXBuildFile; fileRef = C549973C21363E9900DAC409 /* newuser2.gif */; };
-		C549973F21363EA400DAC409 /* newuser3.gif in Resources */ = {isa = PBXBuildFile; fileRef = C549973E21363EA400DAC409 /* newuser3.gif */; };
-		C549974121363EA900DAC409 /* newuser4.gif in Resources */ = {isa = PBXBuildFile; fileRef = C549974021363EA900DAC409 /* newuser4.gif */; };
 		C54997432136555D00DAC409 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54997422136555D00DAC409 /* Alamofire.framework */; };
 		C54F24B2213160020009F68E /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F24B1213160020009F68E /* ResetPasswordViewController.swift */; };
 		C564587D21328AEA009D88C7 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C564587C21328AEA009D88C7 /* TodayViewController.swift */; };
@@ -97,6 +98,10 @@
 		409EE104212D110400114168 /* GitLab_CLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitLab_CLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		409EE108212D110400114168 /* GitLab_CLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitLab_CLUITests.swift; sourceTree = "<group>"; };
 		409EE10A212D110400114168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C0741321367E97006FA0AC /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		40C07415213682E5006FA0AC /* newuser2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = newuser2.gif; sourceTree = "<group>"; };
+		40C0741721368324006FA0AC /* newuser3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = newuser3.gif; sourceTree = "<group>"; };
+		40C074192136833E006FA0AC /* newuser4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = newuser4.gif; sourceTree = "<group>"; };
 		40F4EFE421364D940099E97A /* useWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = useWebViewController.swift; sourceTree = "<group>"; };
 		5009D9F2E7A24B3A46B5F5BC /* Pods-GitLab_CLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitLab_CLUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitLab_CLUITests/Pods-GitLab_CLUITests.release.xcconfig"; sourceTree = "<group>"; };
 		59A5B0B60889E98A4FB7A1B2 /* Pods-GitLab_CLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitLab_CLUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitLab_CLUITests/Pods-GitLab_CLUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,9 +114,6 @@
 		C549973421357C8700DAC409 /* NewUser2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser2ViewController.swift; sourceTree = "<group>"; };
 		C549973621357C9800DAC409 /* NewUser3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser3ViewController.swift; sourceTree = "<group>"; };
 		C549973821357CA700DAC409 /* NewUser4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser4ViewController.swift; sourceTree = "<group>"; };
-		C549973C21363E9900DAC409 /* newuser2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = newuser2.gif; sourceTree = "<group>"; };
-		C549973E21363EA400DAC409 /* newuser3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = newuser3.gif; sourceTree = "<group>"; };
-		C549974021363EA900DAC409 /* newuser4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = newuser4.gif; sourceTree = "<group>"; };
 		C54997422136555D00DAC409 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54F24B1213160020009F68E /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		C564587C21328AEA009D88C7 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		409EE0DC212D110200114168 = {
 			isa = PBXGroup;
 			children = (
+				40C0741321367E97006FA0AC /* homeViewController.swift */,
 				40F4EFE421364D940099E97A /* useWebViewController.swift */,
 				407F638F2133E3C200001915 /* teachTableViewCell.swift */,
 				407F638D2133E3AB00001915 /* teachTableViewController.swift */,
@@ -212,9 +215,9 @@
 				409EE0F4212D110400114168 /* Info.plist */,
 				407F63812133D0B400001915 /* loading.gif */,
 				C5FFA2AC2136683600DFF5AC /* newuser1(small).gif */,
-				C549973C21363E9900DAC409 /* newuser2.gif */,
-				C549973E21363EA400DAC409 /* newuser3.gif */,
-				C549974021363EA900DAC409 /* newuser4.gif */,
+				40C07415213682E5006FA0AC /* newuser2.gif */,
+				40C0741721368324006FA0AC /* newuser3.gif */,
+				40C074192136833E006FA0AC /* newuser4.gif */,
 				C5EF25282130FF6700EE5368 /* GoogleService-Info.plist */,
 				401FCFA72132B85100F1A728 /* hotArticleTableViewController.swift */,
 				401FCFA92132B91700F1A728 /* hotArticleTableViewCell.swift */,
@@ -374,16 +377,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C0741821368324006FA0AC /* newuser3.gif in Resources */,
 				409EE0F3212D110400114168 /* LaunchScreen.storyboard in Resources */,
 				C5EF25292130FF6700EE5368 /* GoogleService-Info.plist in Resources */,
-				C549973D21363E9A00DAC409 /* newuser2.gif in Resources */,
 				C5FFA2AD2136683700DFF5AC /* newuser1(small).gif in Resources */,
 				409EE0F0212D110400114168 /* Assets.xcassets in Resources */,
-				C549974121363EA900DAC409 /* newuser4.gif in Resources */,
+				40C0741A2136833E006FA0AC /* newuser4.gif in Resources */,
+				40C07416213682E5006FA0AC /* newuser2.gif in Resources */,
 				407F63822133D0B400001915 /* loading.gif in Resources */,
 				409EE0EE212D110200114168 /* Main.storyboard in Resources */,
 				401FCFAF2132C4A600F1A728 /* SecondMain.storyboard in Resources */,
-				C549973F21363EA400DAC409 /* newuser3.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +524,7 @@
 				407F63842133D0D000001915 /* loadGif.swift in Sources */,
 				C59FDAA9213680C300E89E68 /* MyCollectionViewCell.swift in Sources */,
 				C589851F21310BE900DA3F4E /* CreateAccountViewController.swift in Sources */,
+				40C0741421367E97006FA0AC /* homeViewController.swift in Sources */,
 				C549973921357CA700DAC409 /* NewUser4ViewController.swift in Sources */,
 				C549972F2135626100DAC409 /* GentlemanViewController.swift in Sources */,
 				C589851D2131073F00DA3F4E /* LoginViewController.swift in Sources */,
