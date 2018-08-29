@@ -45,6 +45,8 @@
 		C56458812132AAAF009D88C7 /* RealTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56458802132AAAF009D88C7 /* RealTodayViewController.swift */; };
 		C589851D2131073F00DA3F4E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589851C2131073F00DA3F4E /* LoginViewController.swift */; };
 		C589851F21310BE900DA3F4E /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589851E21310BE900DA3F4E /* CreateAccountViewController.swift */; };
+		C59FDAA72136803000E89E68 /* situationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59FDAA62136803000E89E68 /* situationViewController.swift */; };
+		C59FDAA9213680C300E89E68 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59FDAA8213680C300E89E68 /* MyCollectionViewCell.swift */; };
 		C5EF25292130FF6700EE5368 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5EF25282130FF6700EE5368 /* GoogleService-Info.plist */; };
 		C5F8CA482133B03B00F0F20E /* BigTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F8CA472133B03B00F0F20E /* BigTodayViewController.swift */; };
 		C5FFA2AD2136683700DFF5AC /* newuser1(small).gif in Resources */ = {isa = PBXBuildFile; fileRef = C5FFA2AC2136683600DFF5AC /* newuser1(small).gif */; };
@@ -116,6 +118,8 @@
 		C56458802132AAAF009D88C7 /* RealTodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTodayViewController.swift; sourceTree = "<group>"; };
 		C589851C2131073F00DA3F4E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C589851E21310BE900DA3F4E /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		C59FDAA62136803000E89E68 /* situationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = situationViewController.swift; sourceTree = "<group>"; };
+		C59FDAA8213680C300E89E68 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		C5EF25282130FF6700EE5368 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C5F8CA472133B03B00F0F20E /* BigTodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTodayViewController.swift; sourceTree = "<group>"; };
 		C5FFA2AC2136683600DFF5AC /* newuser1(small).gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "newuser1(small).gif"; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 				407F637F2133CC1500001915 /* loadingViewController.swift */,
 				407F637D2133B25900001915 /* infoSegmenatedViewController.swift */,
 				401FCFAE2132C4A600F1A728 /* SecondMain.storyboard */,
+				C59FDAA8213680C300E89E68 /* MyCollectionViewCell.swift */,
+				C59FDAA62136803000E89E68 /* situationViewController.swift */,
 				409EE0E7212D110200114168 /* GitLab_CL */,
 				409EE0FC212D110400114168 /* GitLab_CLTests */,
 				409EE107212D110400114168 /* GitLab_CLUITests */,
@@ -513,6 +519,7 @@
 			files = (
 				401FCFAA2132B91700F1A728 /* hotArticleTableViewCell.swift in Sources */,
 				407F63842133D0D000001915 /* loadGif.swift in Sources */,
+				C59FDAA9213680C300E89E68 /* MyCollectionViewCell.swift in Sources */,
 				C589851F21310BE900DA3F4E /* CreateAccountViewController.swift in Sources */,
 				C549973921357CA700DAC409 /* NewUser4ViewController.swift in Sources */,
 				C549972F2135626100DAC409 /* GentlemanViewController.swift in Sources */,
@@ -522,6 +529,7 @@
 				C549973321357C5400DAC409 /* NewUser1ViewController.swift in Sources */,
 				C54997312135720D00DAC409 /* NewUserPageViewController.swift in Sources */,
 				C549973521357C8700DAC409 /* NewUser2ViewController.swift in Sources */,
+				C59FDAA72136803000E89E68 /* situationViewController.swift in Sources */,
 				C564587D21328AEA009D88C7 /* TodayViewController.swift in Sources */,
 				401FCFA82132B85100F1A728 /* hotArticleTableViewController.swift in Sources */,
 				C56458812132AAAF009D88C7 /* RealTodayViewController.swift in Sources */,

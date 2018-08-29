@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 import FirebaseAuth
-//import FBSDKLoginKit
+import FBSDKLoginKit
 
 class LoginViewController: UIViewController {
 
@@ -50,7 +50,7 @@ class LoginViewController: UIViewController {
     }
     
     
-    /*@IBAction func fbAction(_ sender: Any) {
+    @IBAction func fbAction(_ sender: Any) {
         let fbLoginManager = FBSDKLoginManager()
         // 使用FB登入的SDK，並請求可以讀取用戶的基本資料和取得用戶email的權限
         fbLoginManager.logIn(withReadPermissions: ["public_profile", "email"], from: self) { (result, error) in
@@ -94,7 +94,7 @@ class LoginViewController: UIViewController {
             })
             
         }
-    }*/
+    }
     
     @IBAction func dismissNext(segue:UIStoryboardSegue){
     }

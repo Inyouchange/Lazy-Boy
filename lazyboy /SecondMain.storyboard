@@ -47,7 +47,7 @@
             <objects>
                 <tableViewController id="6Zm-dG-Pbg" customClass="hotArticleTableViewController" customModule="GitLab_CL" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" estimatedRowHeight="200" sectionHeaderHeight="28" sectionFooterHeight="28" id="4bt-ct-z6G">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="595"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="570"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
@@ -103,7 +103,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1880"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <view key="tableFooterView" contentMode="scaleToFill" misplaced="YES" id="TzJ-ld-zOi">
+                        <view key="tableFooterView" contentMode="scaleToFill" id="TzJ-ld-zOi">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="1880"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
@@ -249,7 +249,7 @@
             <objects>
                 <viewController id="4iZ-tR-vDG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Ep-gn-owP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="595"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="570"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3NM-sC-g2Q">
@@ -279,6 +279,14 @@
                                     <segue destination="hYb-FS-ihx" kind="show" id="srY-PJ-6Va"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIf-BW-blI">
+                                <rect key="frame" x="164" y="363" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="gly-eI-BPL" kind="show" id="l36-Jl-Efh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="DtS-TA-mtO"/>
@@ -286,14 +294,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7IV-za-MCd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7040.8000000000002" y="2146.776611694153"/>
+            <point key="canvasLocation" x="7040.8000000000002" y="2146.3268365817094"/>
         </scene>
         <!--Title-->
         <scene sceneID="hxR-mB-w1W">
             <objects>
                 <viewController id="Lmi-Q6-nfs" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eEZ-eK-xmp">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="595"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="570"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZw-qV-Tud">
@@ -332,14 +340,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="odD-rF-NzP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8048.8000000000002" y="2152.1739130434785"/>
+            <point key="canvasLocation" x="8054" y="2362"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gUb-Fc-T2O">
             <objects>
                 <viewController id="g7k-9X-l1E" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cyR-Qb-LwS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="595"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="570"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rhs-V4-77H">
@@ -392,7 +400,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <view key="tableFooterView" contentMode="scaleToFill" misplaced="YES" id="Cs4-4t-hXQ">
+                        <view key="tableFooterView" contentMode="scaleToFill" id="Cs4-4t-hXQ">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="882"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
@@ -452,12 +460,63 @@
             </objects>
             <point key="canvasLocation" x="9725.6000000000004" y="2095.9520239880062"/>
         </scene>
+        <!--Situation View Controller-->
+        <scene sceneID="khF-JX-z7g">
+            <objects>
+                <viewController id="gly-eI-BPL" customClass="situationViewController" customModule="GitLab_CL" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y2u-9o-5ca">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="570"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="aTZ-La-iqh">
+                                <rect key="frame" x="16" y="91" width="1098" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LSs-02-tAk">
+                                    <size key="itemSize" width="134" height="152"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="ixb-Pi-75C" customClass="MyCollectionViewCell" customModule="GitLab_CL" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="134" height="152"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="134" height="152"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U3D-E9-CU4">
+                                                    <rect key="frame" x="18" y="4" width="96" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <connections>
+                                            <outlet property="imageView" destination="U3D-E9-CU4" id="RTW-My-Opm"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="gly-eI-BPL" id="LRw-hV-bAa"/>
+                                    <outlet property="delegate" destination="gly-eI-BPL" id="Kff-lU-4ls"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ZmE-4z-CRO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nqW-oT-4ye" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10666.4" y="2613.6431784107949"/>
+        </scene>
         <!--Use Web View Controller-->
         <scene sceneID="xkW-wB-wmx">
             <objects>
                 <viewController id="pXU-Bw-fmo" customClass="useWebViewController" customModule="GitLab_CL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sg8-Ik-P2x">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="595"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="570"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ChO-88-YPO"/>
@@ -483,26 +542,27 @@
                                     <segment title="最新消息"/>
                                     <segment title="穿搭教學"/>
                                 </segments>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <action selector="infoSegment:" destination="geh-PS-oqe" eventType="valueChanged" id="GhU-ap-Jah"/>
                                 </connections>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eKD-ep-bYt">
-                                <rect key="frame" x="0.0" y="24" width="375" height="595"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="570"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="N4V-46-Qxz" kind="embed" id="Fvw-eE-lWg"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bOX-M1-Pz5">
-                                <rect key="frame" x="0.0" y="24" width="375" height="595"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="570"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="a1n-5R-M3h" kind="embed" id="jtZ-Sf-4P7"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ybn-QF-yzn">
-                                <rect key="frame" x="0.0" y="24" width="375" height="595"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="570"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="6Zm-dG-Pbg" kind="embed" id="pbE-rf-3Xk"/>
@@ -583,7 +643,7 @@
             <objects>
                 <tableViewController id="a1n-5R-M3h" customClass="newInfoTableViewController" customModule="GitLab_CL" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" estimatedRowHeight="200" sectionHeaderHeight="28" sectionFooterHeight="28" id="Qn3-03-Xto">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="595"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="570"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
@@ -629,7 +689,7 @@
             <objects>
                 <tableViewController id="N4V-46-Qxz" customClass="teachTableViewController" customModule="GitLab_CL" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" estimatedRowHeight="200" sectionHeaderHeight="28" sectionFooterHeight="28" id="dEA-Jj-Mcu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="595"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="570"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>

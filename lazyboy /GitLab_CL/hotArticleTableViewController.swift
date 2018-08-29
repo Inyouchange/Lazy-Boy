@@ -9,8 +9,8 @@
 import UIKit
 
 class hotArticleTableViewController: UITableViewController {
-    var articleNames = ["",""]
-    var articleImages = ["文章banner秋裝","穿搭教學簡單_工作區域 1",]
+    var articleNames = ["","",""]
+    var articleImages = ["文章banner秋裝","穿搭教學簡單_工作區域 1","今日"]
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "Cell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)as! hotArticleTableViewCell
