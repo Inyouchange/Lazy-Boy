@@ -21,6 +21,8 @@ class newInfoTableViewController: UITableViewController {
         return cell
         
     }
+    @IBAction func dismissNext(segue:UIStoryboardSegue){
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

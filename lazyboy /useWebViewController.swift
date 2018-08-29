@@ -28,7 +28,7 @@ class useWebViewController: UIViewController, UITextFieldDelegate, WKNavigationD
        
         
         // 建立一個 UITextField 用來輸入網址
-        myTextField = UITextField(frame: CGRect(x: 0, y: 20.0 + CGFloat(actionWidth), width: fullScreenSize.width, height: 40))
+        myTextField = UITextField(frame: CGRect(x: 0, y: -10.0 + CGFloat(actionWidth), width: fullScreenSize.width, height: 40))
         myTextField.text = "http://www.muji.com/tw/products/cmdty/detail/4550002748838"
         myTextField.backgroundColor = UIColor(red: 0.95, green: 0.95, blue: 0.95, alpha: 1)
         myTextField.clearButtonMode = .whileEditing
@@ -37,7 +37,7 @@ class useWebViewController: UIViewController, UITextFieldDelegate, WKNavigationD
         self.view.addSubview(myTextField)
         
         // 建立 WKWebView
-        myWebView = WKWebView(frame: CGRect(x: 0, y: 60.0 + CGFloat(actionWidth), width: fullScreenSize.width, height: fullScreenSize.height - 60 - CGFloat(actionWidth)))
+        myWebView = WKWebView(frame: CGRect(x: 0, y: 40.0 + CGFloat(actionWidth), width: fullScreenSize.width, height: fullScreenSize.height - 60 - CGFloat(actionWidth)))
         
         // 設置委任對象
         myWebView.navigationDelegate = self

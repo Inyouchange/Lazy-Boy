@@ -32,6 +32,11 @@ class BigTodayViewController: UIViewController, CLLocationManagerDelegate {
         })
     }
     let locationManager = CLLocationManager()
+    @IBAction func dismissNext(segue:UIStoryboardSegue){
+    }
+    @IBAction func webAction(_ sender: Any) {
+        
+    }
     
     @IBAction func wholeAction(_ sender: Any) {
         UIView.animate(withDuration: 0.5, animations: {
