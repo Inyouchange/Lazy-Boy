@@ -10,8 +10,8 @@ import UIKit
 
 class teachTableViewController: UITableViewController {
 
-    var teachNames = ["第一章","第二章","第三章","第四章"]
-    var teachImages = ["1111","2222","3333","4444"]
+    var teachNames = ["","",""]
+    var teachImages = ["穿搭教學丹寧_工作區域 1","穿搭教學矮個_工作區域 1","穿搭教學簡單_工作區域 1",]
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "Cell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)as! teachTableViewCell

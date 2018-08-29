@@ -80,7 +80,7 @@
                                 <connections>
                                     <outlet property="nameLabel" destination="aR1-mB-53O" id="4Ct-nG-zKJ"/>
                                     <outlet property="thumbnailImageView" destination="fSY-ZO-gxQ" id="89P-qP-4DA"/>
-                                    <segue destination="4iZ-tR-vDG" kind="show" id="so4-Ws-OIO"/>
+                                    <segue destination="4iZ-tR-vDG" kind="show" id="2ZA-d9-RbM"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -94,6 +94,155 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fc7-HV-viy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7048.8000000000002" y="1434.3328335832084"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="Iji-IW-FJB">
+            <objects>
+                <tableViewController id="ILx-Kj-gcb" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="szP-bB-Rxn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1880"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableFooterView" contentMode="scaleToFill" misplaced="YES" id="TzJ-ld-zOi">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="1880"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="文章banner羊毛大衣" translatesAutoresizingMaskIntoConstraints="NO" id="GUE-jd-Adk">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="199"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7T-uJ-gcq">
+                                    <rect key="frame" x="21" y="215" width="355" height="304"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <string key="text">一件完美剪裁與廓形的大衣都自帶一種高貴的氣質，換句話說，這樣的大衣，不僅為你擺脫臃腫拖沓的形象，還能讓你看著氣度不凡，霸氣測漏！ 
+韓劇裡的霸道總裁歐巴們，之所以這麼得妹子們心，還不是人家會穿大衣。大部分現在流行的經典男士大衣，都是有各類軍裝演變而來，剪裁利落，因此大衣自帶帥酷氣質，當然前提是選好了大衣以及這件大衣適合你！
+腿比長，顏值比你高的都在努力穿大衣，你還有什麼理由不穿大衣呢？ </string>
+                                    <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="18"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLh-aN-Fkg">
+                                    <rect key="frame" x="21" y="553" width="355" height="102"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <string key="text">身高180+的長腿男，可以任性選擇，負責靜靜地帥就好！
+
+1. 長版大衣</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="長度選擇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="diy-H5-hEc">
+                                    <rect key="frame" x="21" y="518" width="90" height="27"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="顏色選擇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwE-Lc-4C3">
+                                    <rect key="frame" x="21" y="1378" width="90" height="27"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V69-n0-Beu">
+                                    <rect key="frame" x="21" y="839" width="355" height="166"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <string key="text">長度及膝或者過膝的都叫長款！ 180+男士們顯示高大身材的必備武器！身材不高的男士穿長款的大衣，會有一種"衣穿人"的感覺（那就跟霸道總裁沒半毛錢關係了）
+
+2. 短版大衣</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8o-nL-5Ka">
+                                    <rect key="frame" x="22" y="1184" width="355" height="196"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <string key="text">這種剛好遮住臀部的長度的大衣，基本上適合任何身高的男人穿！可以盡情地秀腿！
+剪裁設計好的一些品牌大衣，在這樣短款的基礎上還會設計腰身【配腰帶】以及內設收縮帶！
+這般“良苦用心”，也是為了讓男人們的腿看上去更長！</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEA-s1-C5a">
+                                    <rect key="frame" x="21" y="1413" width="355" height="407"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <string key="text">最常見的為駝色、黑色、灰色的大衣。
+駝色顯質感，不會像黑色、灰色這樣沉悶，百搭的特點讓駝色成為男女冬季衣櫥必備的顏色。
+黑色大衣可供選擇的餘地最大，但一身黑難免會有些沉重，可以用棕色/卡其色/灰色等單品進行混搭。
+而在選擇灰色大衣的時候更要注重做工剪裁，在面料上，選擇有紋路、細節的大衣會更加顯質感一些，不然灰色大衣很容易穿掉價！
+
+除了上文介紹的這些經典款之外，現在男士的大衣可供選擇的餘地也很大！
+大衣的面料材質很重要，盡量選擇羊毛含量高的大衣，保暖性與透氣性都極佳！
+
+看了這麼多，快點嘗試選擇自己適合的大衣變身成韓國歐巴吧！</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="article_2" translatesAutoresizingMaskIntoConstraints="NO" id="UMR-Go-1CQ">
+                                    <rect key="frame" x="22" y="995" width="355" height="172"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="article1" translatesAutoresizingMaskIntoConstraints="NO" id="cLt-Ab-hKt">
+                                    <rect key="frame" x="22" y="659" width="355" height="172"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="ILx-Kj-gcb" id="ert-c3-OHM"/>
+                            <outlet property="delegate" destination="ILx-Kj-gcb" id="za9-T0-luc"/>
+                        </connections>
+                    </tableView>
+                    <size key="freeformSize" width="375" height="1880"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vnw-ES-EU0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5992.8000000000002" y="2777.8110944527739"/>
+        </scene>
+        <!--Collection View Controller-->
+        <scene sceneID="J6a-2r-qpO">
+            <objects>
+                <collectionViewController id="hYb-FS-ihx" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="odA-SR-G1X">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zSy-ok-Ndr">
+                            <size key="itemSize" width="489" height="157"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" id="dqE-Lt-MhQ">
+                                <rect key="frame" x="5.5" y="0.0" width="489" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="489" height="157"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grid_occation_4" translatesAutoresizingMaskIntoConstraints="NO" id="OiI-Zu-ohu">
+                                            <rect key="frame" x="344" y="29" width="125" height="128"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="hYb-FS-ihx" id="dL8-43-PYl"/>
+                            <outlet property="delegate" destination="hYb-FS-ihx" id="nDm-Se-QJp"/>
+                        </connections>
+                    </collectionView>
+                    <size key="freeformSize" width="500" height="667"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IMf-kC-ty0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7040" y="2869.1154422788609"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rif-Rc-cjl">
@@ -127,7 +276,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="I4b-Fr-Xm7" kind="show" id="ajq-NF-1ER"/>
+                                    <segue destination="hYb-FS-ihx" kind="show" id="srY-PJ-6Va"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -138,53 +287,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7IV-za-MCd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7040.8000000000002" y="2146.776611694153"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Og3-OS-Sn2">
-            <objects>
-                <viewController id="I4b-Fr-Xm7" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="f0t-Hz-VpW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="595"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="pAZ-2M-CsB">
-                                <rect key="frame" x="0.0" y="82" width="375" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="TIY-ND-0e1">
-                                    <size key="itemSize" width="122" height="127"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="H0A-vr-Sc8">
-                                        <rect key="frame" x="0.0" y="0.0" width="122" height="127"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="122" height="127"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="otx-TA-Hw4">
-                                        <rect key="frame" x="132" y="18.5" width="104" height="90"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="104" height="90"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                        <size key="customSize" width="104" height="90"/>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="8NO-2H-15b"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tKl-07-Ana" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="7048.8000000000002" y="2807.9460269865071"/>
         </scene>
         <!--Title-->
         <scene sceneID="hxR-mB-w1W">
@@ -295,7 +397,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hmq-2E-kgg">
-                                    <rect key="frame" x="8" y="103" width="328" height="94"/>
+                                    <rect key="frame" x="8" y="103" width="359" height="94"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <string key="text">一件好的西裝外套，可以搭配衣櫥裡面的各項單品度過春夏秋冬，不但可以應用在各種正式場合、還可以搭配帽T、運動鞋營造休閒感，是男生絕對不能少的單品。
@@ -304,13 +406,6 @@
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 </textView>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="西裝外套" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rG8-Fq-M3t">
-                                    <rect key="frame" x="8" y="43" width="122" height="36"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JyM-Du-Yhm">
                                     <rect key="frame" x="20" y="205" width="156" height="200"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -336,6 +431,13 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" title="Button" image="2.2.2 outfit_item_5"/>
                                 </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="西裝外套" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rG8-Fq-M3t">
+                                    <rect key="frame" x="37" y="50" width="122" height="36"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </view>
@@ -349,6 +451,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Wj-tA-0IZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="9725.6000000000004" y="2095.9520239880062"/>
+        </scene>
+        <!--Use Web View Controller-->
+        <scene sceneID="xkW-wB-wmx">
+            <objects>
+                <viewController id="pXU-Bw-fmo" customClass="useWebViewController" customModule="GitLab_CL" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sg8-Ik-P2x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="595"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ChO-88-YPO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CPE-Gy-nFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10465" y="1458"/>
         </scene>
         <!--LazyBoy-->
         <scene sceneID="kcm-Hl-eTf">
@@ -493,6 +610,7 @@
                                 <connections>
                                     <outlet property="infoImage" destination="Q8i-Y1-auO" id="aB4-he-DKm"/>
                                     <outlet property="infoLabel" destination="AFv-nl-RTu" id="2u6-CE-Y2l"/>
+                                    <segue destination="ILx-Kj-gcb" kind="show" id="bBp-uA-Ohg"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -538,6 +656,7 @@
                                 <connections>
                                     <outlet property="teachImage" destination="EUX-jm-3tv" id="us0-Lk-iQ9"/>
                                     <outlet property="teachLabel" destination="5mS-Eb-8WI" id="Nu0-yE-gIh"/>
+                                    <segue destination="pXU-Bw-fmo" kind="show" id="9rs-M7-7dq"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -568,6 +687,10 @@
         <image name="2.2.2 outfit_item_3" width="984" height="636"/>
         <image name="2.2.2 outfit_item_4" width="468" height="600"/>
         <image name="2.2.2 outfit_item_5" width="468" height="600"/>
+        <image name="article1" width="640" height="341"/>
+        <image name="article_2" width="936" height="438"/>
+        <image name="grid_occation_4" width="360" height="480"/>
         <image name="loading" width="1146" height="912"/>
+        <image name="文章banner羊毛大衣" width="2017" height="1105"/>
     </resources>
 </document>
